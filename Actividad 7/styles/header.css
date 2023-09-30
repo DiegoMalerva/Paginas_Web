@@ -1,0 +1,68 @@
+/* ----HEADER---- */
+
+a{
+    color:white;
+    text-decoration: none;
+    transition: all 250ms;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    color: white;
+
+}
+
+header nav{
+    width: 100%;
+    display:flex;
+    justify-content: space-evenly;
+    height: 100%;
+
+}
+
+.ulCentro, .ulDerecha{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* Texto de "Elementos" */
+.ulCentro{
+    width: 2513px;/* ----2513---- */
+}
+
+/* Íconos */
+
+.ulDerecha{
+    width: 800px; /* ----700---- */
+}
+
+li, i{
+    list-style: none;
+    transition: all 250ms;
+    padding: 5px;
+
+}
+li:hover, i:hover{
+    background-color: gainsboro;
+    color: black;
+    border-radius: 2px;
+}
+
+li:hover a{
+    color: black;
+}
+
+/* Logo */
+
+.ulIzquierda{
+    width: 800px; /* ----700---- */
+    display: flex;
+    align-items: center;
+}
+
+.ulIzquierda img{
+    width: 100%; /* ----100---- */
+}
