@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: rgb(216, 208, 209);
+}
+
+/* Iniciar sesión */
+
+body .divform{
+    width: 500px;
+    height: 400px;
+    background-color: gray;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    box-shadow: 0 0 5px 5px;
+      
+}
+
+
+form .textLogin{
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 20px 0 20px 0;
+}
+
+form .campoContraseña, .campoNombre{
+    width: 200px;
+    margin: auto;
+}
+
+.inputNombre, .inputContraseña{
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    border: 2px black solid;
+}
+
+
+form .campoContraseña{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.reestablecerConstraseña{
+    color:black;
+}
+
+form .remember,  .reestablecer{
+    width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+form .reestablecer{
+    margin-bottom: 20px;
+    transition: all 250ms;
+}
+
+form .reestablecer:hover{
+    text-decoration: underline
+}
+
+
+
+form .boton{
+    width: 70px;
+    height: 30px;
+    margin: auto;
+}
+
+
+form button{
+    width: 100%;
+    border: 2px black solid;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 250ms;
+    font-size: 15px;
+}
+
+
+form button:hover{
+    background-color: rgba(255, 210, 10, 0.8);
+}
+
+
+
+.reestablecerContrasena{
+    color:black;
+}
+

@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "arial";
+}
+
+body section{
+    width: 90%;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0, 0.1);
+}
+
+.item1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo{
+    width:40%;
+}
+
+body section div img{
+    border: 2px red solid;
+    width: 100%;
+    box-shadow: 0px 0px 10px rgba(0,0,0, 0.1);
+}
+
+.plateTipografica{
+    width: 50%;
+    border:2px red solid;
+}
+
+.paletaDeColores{
+    display: flex;
+    margin-top: 50px;
+}
+
+.paletaDeColores div{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border: 2px red solid;
+}
+
