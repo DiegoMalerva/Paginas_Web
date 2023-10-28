@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/index.css">
+    <script src="https://kit.fontawesome.com/fa36d49c1a.js" crossorigin="anonymous"></script>
+    <title>Index</title>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <ul class="ulIzquierda">
+                <a href="index.html"><img src="./img/logo.png" alt=""></a>
+            </ul>
+
+            <ul class="ulCentro">
+                <li class="elementosLiCentro"><a href="">Todo el catálogo</a></li>
+                <li class="elementosLiCentro"><a href="">Juegos</a></li>
+                <li class="elementosLiCentro"><a href="">Puntos de juegos</a></li>
+                <li class="elementosLiCentro"><a href="">Tarjetas de regalo</a></li>
+                <li class="elementosLiCentro"><a href="">Accesorios de juego</a></li>
+                <li class="elementosLiCentro"><a href="">Coleccionables</a></li>      
+            </ul>
+    
+            <ul class="ulDerecha">
+                <a href=""><i class="fa-solid fa-location-dot"></i></a>
+                <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                <a href="login.html"><i class="fa-solid fa-user"></i></a>
+                <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+            </ul>
+            
+        </nav> 
+    </header>
+
+    <!-- Index -->
+    <section>
+        <div class="divTexto">
+            <p>LAS MEJORES OFERTAS</p>
+        </div>
+    </section>
+
+    <section class="section2">
+        <div>
+            <a href=""> <img src="./img/juegos.jpeg" alt=""></a>
+        </div>
+
+        <div>
+            <a href=""> <img src="./img/tarjetas.jpeg" alt=""></a>
+        </div>
+
+        <div>
+            <a href=""> <img src="./img/consolas.jpeg" alt=""></a>
+        </div>
+
+    </section>
+
+
+    <!-- ANIMACIÓN INICIAL -->
+    <!-- Este es un div que cubre toda la ventana del navegador y actúa como un fondo desenfocado. -->
+    <div class="blurredBg"></div>
+
+    <!-- El logo inicial -->
+    <img class="logoAnimation" src="./img/logo.png" alt="Logo">
+
+    <script>
+        // Esta es una función de JS que permite ejecutar otra función (o bloque de código) después de un tiempo especificado en milisegundos, es decir; lo que hace es desaparecer los 2 items que encontró gracias al querySelector, después de 5 segundos.
+        setTimeout(() => {
+            document.querySelector('.logoAnimation').style.display = 'none';
+            document.querySelector('.blurredBg').style.display = 'none';
+        }, 3000); // Desaparecerá después de 3 segundos
+    </script>
+    <!-- TERMINA ANIMACION INICIAL -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <!-- Footer -->
+    <footer class="footerv">
+        <div class="container">
+            <div class="footer_row">
+    
+                <div class="footer_links">
+                    <h4>Sobre SwitchGG</h4>
+                    <ul>
+                        <li><a href="#">Nosotros</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                        <li><a href="#">Vende en SwitchGG</a></li>
+                    </ul>
+                </div>
+                <div class="footer_links">
+                    <h4>Ayuda</h4>
+                    <ul>
+                        <li><a href="#">Cómo comprar</a></li>
+                        <li><a href="#">Cómo activar el juego</a></li>
+                        <li><a href="#">Crear un ticket</a></li>
+                        <li><a href="#">Envios</a></li>
+                        <li><a href="#">Preguntas</a></li>
+                    </ul>
+                </div>
+                <div class="footer_links">
+                    <h4>Métodos de pago</h4>
+                    <ul>
+                        <li><a href="#">Tarjetas de crédito y débito</a></li>
+                        <li><a href="#">Tarjetas de regalo</a></li>
+                        <li><a href="#">Pago en efectivo</a></li>
+                        <li><a href="#">Pago a meses</a></li>
+                    </ul>
+                </div>
+                <div class="footer_links">
+                    <h4>Siguenos</h4>
+                    <div class="social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
