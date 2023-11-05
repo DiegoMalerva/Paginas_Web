@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./paisaje.css">
+    <title>Paisaje</title>
+</head>
+<body>
+    <svg width="400" height="200" xmlns="http://www.w3.org/2000/svg">
+
+        <!-- Fondo -->
+        <rect id="fondo" x="0" y="0" width="400" height="200" fill="lightblue" />
+      
+        <!-- Sol -->
+        <circle class="sol" cx="350" cy="50" r="30" fill="yellow" />
+      
+        <!-- Montañas -->
+        <polygon id="montaña1" points="100,200 150,100 200,200" fill="gray" />
+        <polygon id="montaña2" points="200,200 250,80 300,200" fill="gray" />
+        <polygon id="montaña3" points="300,200 350,120 400,200" fill="gray" />
+
+        <!-- Nube 1 -->
+        <circle id="nube1" cx="80" cy="60" r="20" fill="white" />
+        <circle id="nube2" cx="100" cy="55" r="25" fill="white" />
+        <circle id="nube3" cx="120" cy="60" r="20" fill="white" />
+
+        <!-- Nube 2 -->
+        <circle id="nube4" cx="200" cy="50" r="20" fill="white" />
+        <circle id="nube5" cx="220" cy="45" r="25" fill="white" />
+        <circle id="nube6" cx="240" cy="50" r="20" fill="white" />
+
+        <!-- Árbol -->
+        <rect id="tronco" x="30" y="160" width="20" height="40" fill="saddlebrown" />
+        <circle class="hojas" cx="40" cy="140" r="30" fill="limegreen" />
+      
+        <!-- Pájaro -->
+        <path class="pajaro1" d="M160 80 Q170 70 175 80 Q180 90 190 80" fill="black" />
+        <path class="pajaro2" d="M200 110 Q210 100 215 110 Q220 120 230 110" fill="black" />
+
+      </svg>
+</html>

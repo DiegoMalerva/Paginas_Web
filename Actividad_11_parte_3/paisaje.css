@@ -1,0 +1,32 @@
+
+.sol{
+    fill: yellow;
+}
+
+.sol:hover{
+    fill: black;
+}
+
+.hojas{
+    fill: limegreen;
+}
+
+.hojas:hover{
+    fill: gray;
+}
+
+.pajaro1{
+    fill: black;
+}
+
+.pajaro1:hover{
+    fill: pink;
+}
+
+.pajaro2{
+    fill: black;
+}
+
+.pajaro2:hover{
+    fill: pink;
+}

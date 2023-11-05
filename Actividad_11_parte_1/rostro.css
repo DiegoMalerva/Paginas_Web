@@ -1,0 +1,26 @@
+#cara{
+    stroke: black;
+    stroke-width: 3;
+    fill: #ffcc66;
+}
+
+.ojo{
+    stroke: black;
+    stroke-width: 2;
+    fill: black;
+}
+
+.ojo:hover{
+    fill: red;
+}
+
+#boca{
+    stroke:black;
+    stroke-width: 2;
+    fill: black;
+}
+
+.ceja{
+    stroke:black;
+    stroke-width: 3;
+}
