@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/productos.css">
+    <link rel="stylesheet" href="./styles/geolocalizacion.css">
+    <script src="https://kit.fontawesome.com/fa36d49c1a.js" crossorigin="anonymous"></script>
+    <title>Locación</title>
+</head>
+<body>
+
+     <!-- Header -->
+     <header>
+        <nav>
+            <ul class="ulIzquierda">
+                <a href="index.html"><img src="./img/logo.png" alt=""></a>
+            </ul>
+
+            <ul class="ulCentro">
+                <li class="elementosLiCentro"><a href="productos.html">Todo el catálogo</a></li>
+                <li class="elementosLiCentro"><a href="productos.html">Juegos</a></li>
+                <li class="elementosLiCentro"><a href="puntos.html">Puntos de juegos</a></li>
+                <li class="elementosLiCentro"><a href="tarjetas.html">Tarjetas de regalo</a></li>
+                <li class="elementosLiCentro"><a href="accesorio.html">Accesorios de juego</a></li>
+                <li class="elementosLiCentro"><a href="coleccionable.html">Coleccionables</a></li>      
+            </ul>
+    
+            <ul class="ulDerecha">
+                <a href="geolocalizacion.html"><i class="fa-solid fa-location-dot"></i></a>
+                <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                <a href="login.html"><i class="fa-solid fa-user"></i></a>
+                <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+            </ul>
+            
+        </nav> 
+    </header>
+
+    <!-- Mapa -->
+
+    <section>
+        <div class="divTexto">
+            <p>TU UBICACIÓN</p>
+        </div>
+    </section>
+
+    <div id="map", class="map">
+
+    </div>
+
+<script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCBMuXv2Lrnm911rAhTGJzH1og7udgw4Ok&callback=initMap">
+</script>
+
+<script>
+    const coord ={lat: 19.432947, lng:-99.133349}
+    const mapDiv = document.getElementById("map");
+    let map
+    let marker
+    function initMap() {
+        map = new google.maps.Map(mapDiv, {
+            center: coord,
+            zoom: 15,
+        });
+    
+    marker = new google.maps.Marker({
+        position: coord,
+        map: map
+    })
+}
+</script>
+
+
+    <!-- Footer -->
+<footer class="footerv">
+    <div class="container">
+        <div class="footer_row">
+
+            <div class="footer_links">
+                <h4>Sobre SwitchGG</h4>
+                <ul>
+                    <li><a href="#">Nosotros</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="#">Vende en SwitchGG</a></li>
+                </ul>
+            </div>
+            <div class="footer_links">
+                <h4>Ayuda</h4>
+                <ul>
+                    <li><a href="#">Cómo comprar</a></li>
+                    <li><a href="#">Cómo activar el juego</a></li>
+                    <li><a href="#">Crear un ticket</a></li>
+                    <li><a href="#">Envios</a></li>
+                    <li><a href="#">Preguntas</a></li>
+                </ul>
+            </div>
+            <div class="footer_links">
+                <h4>Métodos de pago</h4>
+                <ul>
+                    <li><a href="#">Tarjetas de crédito y débito</a></li>
+                    <li><a href="#">Tarjetas de regalo</a></li>
+                    <li><a href="#">Pago en efectivo</a></li>
+                    <li><a href="#">Pago a meses</a></li>
+                </ul>
+            </div>
+            <div class="footer_links">
+                <h4>Siguenos</h4>
+                <div class="social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

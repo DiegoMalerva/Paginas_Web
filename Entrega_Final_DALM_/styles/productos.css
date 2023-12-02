@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+}
+
+body{
+    background-color: rgb(216, 208, 209);
+}
+
+/* Section 3 */ 
+ 
+.section3{ 
+ 
+    display: flex; 
+    justify-content: space-evenly; 
+    width: 80%; 
+    margin: auto; 
+    margin-bottom: 30px; 
+    margin-top: 30px; 
+} 
+ 
+.section3 div{ 
+     
+    width: 30%; 
+} 
+ 
+.section3 div img{ 
+    width: 100%; 
+    border-radius: 10px; 
+    border: black 3px solid; 
+    transition: all 250 ms; 
+} 
+ 
+.section3 div img:hover{ 
+    box-shadow: 0 0 10px 3px; 
+} 
+ 
+ 
+/* Section 4 */ 
+ 
+.section4{ 
+ 
+    display: flex; 
+    justify-content: space-evenly; 
+    width: 80%; 
+    margin: auto; 
+    margin-bottom: 30px; 
+    margin-top: 30px; 
+} 
+ 
+.section4 div{ 
+     
+    width: 30%; 
+} 
+ 
+.section4 div img{ 
+    width: 100%; 
+    border-radius: 10px; 
+    border: black 3px solid; 
+    transition: all 250 ms; 
+} 
+ 
+.section4 div img:hover{ 
+    box-shadow: 0 0 10px 3px; 
+} 
+ 
+/* Section 5 */ 
+ 
+.section5{ 
+ 
+    display: flex; 
+    justify-content: space-evenly; 
+    width: 80%; 
+    margin: auto; 
+    margin-bottom: 30px; 
+    margin-top: 30px; 
+} 
+ 
+.section5 div{ 
+     
+    width: 30%; 
+} 
+ 
+.section5 div img{ 
+    width: 100%; 
+    border-radius: 10px; 
+    border: black 3px solid; 
+    transition: all 250 ms; 
+} 
+ 
+.section5 div img:hover{ 
+    box-shadow: 0 0 10px 3px; 
+} 
+ 
+/* Section 6 */ 
+ 
+.section6{ 
+ 
+    display: flex; 
+    justify-content: space-evenly; 
+    width: 80%; 
+    margin: auto; 
+    margin-bottom: 30px; 
+    margin-top: 30px; 
+} 
+ 
+.section6 div{ 
+     
+    width: 30%; 
+} 
+ 
+.section6 div img{ 
+    width: 100%; 
+    border-radius: 10px; 
+    border: black 3px solid; 
+    transition: all 250 ms; 
+} 
+ 
+.section6 div img:hover{ 
+    box-shadow: 0 0 10px 3px; 
+}
